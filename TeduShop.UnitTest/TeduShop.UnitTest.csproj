@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -58,9 +59,9 @@
       <Project>{79b8ce96-184c-4690-b130-2b1154f26286}</Project>
       <Name>TeduShop.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TeduShop.Data\TeduShop.DataEF.csproj">
+    <ProjectReference Include="..\TeduShop.Data\TeduShop.Data.csproj">
       <Project>{635f1c10-8b37-48bc-a3a5-4fa73b60fe4a}</Project>
-      <Name>TeduShop.DataEF</Name>
+      <Name>TeduShop.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Model\TeduShop.Model.csproj">
       <Project>{0a9c2494-cb27-4d1a-9b0c-bd60c1efc52c}</Project>
